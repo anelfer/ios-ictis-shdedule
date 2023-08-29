@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CFCC692A9E9B31002F8A30 /* ictis_sheduleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC682A9E9B31002F8A30 /* ictis_sheduleApp.swift */; };
+		28CFCC6B2A9E9B31002F8A30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC6A2A9E9B31002F8A30 /* ContentView.swift */; };
+		28CFCC6D2A9E9B32002F8A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CFCC6C2A9E9B32002F8A30 /* Assets.xcassets */; };
+		28CFCC702A9E9B32002F8A30 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28CFCC6F2A9E9B32002F8A30 /* Preview Assets.xcassets */; };
+		28CFCC7A2A9E9B32002F8A30 /* ictis_sheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC792A9E9B32002F8A30 /* ictis_sheduleTests.swift */; };
+		28CFCC842A9E9B32002F8A30 /* ictis_sheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC832A9E9B32002F8A30 /* ictis_sheduleUITests.swift */; };
+		28CFCC862A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28CFCC762A9E9B32002F8A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CFCC5D2A9E9B31002F8A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CFCC642A9E9B31002F8A30;
+			remoteInfo = "ictis shedule";
+		};
+		28CFCC802A9E9B32002F8A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28CFCC5D2A9E9B31002F8A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28CFCC642A9E9B31002F8A30;
+			remoteInfo = "ictis shedule";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28CFCC652A9E9B31002F8A30 /* ictis shedule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ictis shedule.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CFCC682A9E9B31002F8A30 /* ictis_sheduleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleApp.swift; sourceTree = "<group>"; };
+		28CFCC6A2A9E9B31002F8A30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		28CFCC6C2A9E9B32002F8A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28CFCC6F2A9E9B32002F8A30 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28CFCC752A9E9B32002F8A30 /* ictis sheduleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ictis sheduleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CFCC792A9E9B32002F8A30 /* ictis_sheduleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleTests.swift; sourceTree = "<group>"; };
+		28CFCC7F2A9E9B32002F8A30 /* ictis sheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ictis sheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28CFCC832A9E9B32002F8A30 /* ictis_sheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleUITests.swift; sourceTree = "<group>"; };
+		28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28CFCC622A9E9B31002F8A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC722A9E9B32002F8A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC7C2A9E9B32002F8A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28CFCC5C2A9E9B31002F8A30 = {
+			isa = PBXGroup;
+			children = (
+				28CFCC672A9E9B31002F8A30 /* ictis shedule */,
+				28CFCC782A9E9B32002F8A30 /* ictis sheduleTests */,
+				28CFCC822A9E9B32002F8A30 /* ictis sheduleUITests */,
+				28CFCC662A9E9B31002F8A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28CFCC662A9E9B31002F8A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC652A9E9B31002F8A30 /* ictis shedule.app */,
+				28CFCC752A9E9B32002F8A30 /* ictis sheduleTests.xctest */,
+				28CFCC7F2A9E9B32002F8A30 /* ictis sheduleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28CFCC672A9E9B31002F8A30 /* ictis shedule */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC682A9E9B31002F8A30 /* ictis_sheduleApp.swift */,
+				28CFCC6A2A9E9B31002F8A30 /* ContentView.swift */,
+				28CFCC6C2A9E9B32002F8A30 /* Assets.xcassets */,
+				28CFCC6E2A9E9B32002F8A30 /* Preview Content */,
+			);
+			path = "ictis shedule";
+			sourceTree = "<group>";
+		};
+		28CFCC6E2A9E9B32002F8A30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC6F2A9E9B32002F8A30 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		28CFCC782A9E9B32002F8A30 /* ictis sheduleTests */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC792A9E9B32002F8A30 /* ictis_sheduleTests.swift */,
+			);
+			path = "ictis sheduleTests";
+			sourceTree = "<group>";
+		};
+		28CFCC822A9E9B32002F8A30 /* ictis sheduleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC832A9E9B32002F8A30 /* ictis_sheduleUITests.swift */,
+				28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */,
+			);
+			path = "ictis sheduleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28CFCC642A9E9B31002F8A30 /* ictis shedule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CFCC892A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis shedule" */;
+			buildPhases = (
+				28CFCC612A9E9B31002F8A30 /* Sources */,
+				28CFCC622A9E9B31002F8A30 /* Frameworks */,
+				28CFCC632A9E9B31002F8A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ictis shedule";
+			productName = "ictis shedule";
+			productReference = 28CFCC652A9E9B31002F8A30 /* ictis shedule.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28CFCC742A9E9B32002F8A30 /* ictis sheduleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CFCC8C2A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis sheduleTests" */;
+			buildPhases = (
+				28CFCC712A9E9B32002F8A30 /* Sources */,
+				28CFCC722A9E9B32002F8A30 /* Frameworks */,
+				28CFCC732A9E9B32002F8A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CFCC772A9E9B32002F8A30 /* PBXTargetDependency */,
+			);
+			name = "ictis sheduleTests";
+			productName = "ictis sheduleTests";
+			productReference = 28CFCC752A9E9B32002F8A30 /* ictis sheduleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28CFCC7E2A9E9B32002F8A30 /* ictis sheduleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28CFCC8F2A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis sheduleUITests" */;
+			buildPhases = (
+				28CFCC7B2A9E9B32002F8A30 /* Sources */,
+				28CFCC7C2A9E9B32002F8A30 /* Frameworks */,
+				28CFCC7D2A9E9B32002F8A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28CFCC812A9E9B32002F8A30 /* PBXTargetDependency */,
+			);
+			name = "ictis sheduleUITests";
+			productName = "ictis sheduleUITests";
+			productReference = 28CFCC7F2A9E9B32002F8A30 /* ictis sheduleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28CFCC5D2A9E9B31002F8A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					28CFCC642A9E9B31002F8A30 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					28CFCC742A9E9B32002F8A30 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 28CFCC642A9E9B31002F8A30;
+					};
+					28CFCC7E2A9E9B32002F8A30 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 28CFCC642A9E9B31002F8A30;
+					};
+				};
+			};
+			buildConfigurationList = 28CFCC602A9E9B31002F8A30 /* Build configuration list for PBXProject "ictis shedule" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28CFCC5C2A9E9B31002F8A30;
+			productRefGroup = 28CFCC662A9E9B31002F8A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28CFCC642A9E9B31002F8A30 /* ictis shedule */,
+				28CFCC742A9E9B32002F8A30 /* ictis sheduleTests */,
+				28CFCC7E2A9E9B32002F8A30 /* ictis sheduleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28CFCC632A9E9B31002F8A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CFCC702A9E9B32002F8A30 /* Preview Assets.xcassets in Resources */,
+				28CFCC6D2A9E9B32002F8A30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC732A9E9B32002F8A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC7D2A9E9B32002F8A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28CFCC612A9E9B31002F8A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CFCC6B2A9E9B31002F8A30 /* ContentView.swift in Sources */,
+				28CFCC692A9E9B31002F8A30 /* ictis_sheduleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC712A9E9B32002F8A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CFCC7A2A9E9B32002F8A30 /* ictis_sheduleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28CFCC7B2A9E9B32002F8A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CFCC862A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift in Sources */,
+				28CFCC842A9E9B32002F8A30 /* ictis_sheduleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28CFCC772A9E9B32002F8A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CFCC642A9E9B31002F8A30 /* ictis shedule */;
+			targetProxy = 28CFCC762A9E9B32002F8A30 /* PBXContainerItemProxy */;
+		};
+		28CFCC812A9E9B32002F8A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28CFCC642A9E9B31002F8A30 /* ictis shedule */;
+			targetProxy = 28CFCC802A9E9B32002F8A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		28CFCC872A9E9B32002F8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28CFCC882A9E9B32002F8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28CFCC8A2A9E9B32002F8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ictis shedule/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-shedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		28CFCC8B2A9E9B32002F8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ictis shedule/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-shedule";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		28CFCC8D2A9E9B32002F8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-sheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ictis shedule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ictis shedule";
+			};
+			name = Debug;
+		};
+		28CFCC8E2A9E9B32002F8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-sheduleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ictis shedule.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ictis shedule";
+			};
+			name = Release;
+		};
+		28CFCC902A9E9B32002F8A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-sheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ictis shedule";
+			};
+			name = Debug;
+		};
+		28CFCC912A9E9B32002F8A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-sheduleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ictis shedule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28CFCC602A9E9B31002F8A30 /* Build configuration list for PBXProject "ictis shedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CFCC872A9E9B32002F8A30 /* Debug */,
+				28CFCC882A9E9B32002F8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CFCC892A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis shedule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CFCC8A2A9E9B32002F8A30 /* Debug */,
+				28CFCC8B2A9E9B32002F8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CFCC8C2A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis sheduleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CFCC8D2A9E9B32002F8A30 /* Debug */,
+				28CFCC8E2A9E9B32002F8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28CFCC8F2A9E9B32002F8A30 /* Build configuration list for PBXNativeTarget "ictis sheduleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28CFCC902A9E9B32002F8A30 /* Debug */,
+				28CFCC912A9E9B32002F8A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28CFCC5D2A9E9B31002F8A30 /* Project object */;
+}
