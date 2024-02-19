@@ -14,6 +14,9 @@
 		28CFCC7A2A9E9B32002F8A30 /* ictis_sheduleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC792A9E9B32002F8A30 /* ictis_sheduleTests.swift */; };
 		28CFCC842A9E9B32002F8A30 /* ictis_sheduleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC832A9E9B32002F8A30 /* ictis_sheduleUITests.swift */; };
 		28CFCC862A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */; };
+		28CFCC932A9F786E002F8A30 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC922A9F786E002F8A30 /* ScheduleView.swift */; };
+		28CFCC962A9F78CB002F8A30 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC952A9F78CB002F8A30 /* SearchView.swift */; };
+		28CFCC992A9F7B47002F8A30 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CFCC982A9F7B47002F8A30 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		28CFCC7F2A9E9B32002F8A30 /* ictis sheduleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ictis sheduleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CFCC832A9E9B32002F8A30 /* ictis_sheduleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleUITests.swift; sourceTree = "<group>"; };
 		28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ictis_sheduleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		28CFCC922A9F786E002F8A30 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		28CFCC952A9F78CB002F8A30 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		28CFCC982A9F7B47002F8A30 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 		28CFCC672A9E9B31002F8A30 /* ictis shedule */ = {
 			isa = PBXGroup;
 			children = (
+				28CFCC942A9F78B3002F8A30 /* view */,
 				28CFCC682A9E9B31002F8A30 /* ictis_sheduleApp.swift */,
 				28CFCC6A2A9E9B31002F8A30 /* ContentView.swift */,
 				28CFCC6C2A9E9B32002F8A30 /* Assets.xcassets */,
@@ -125,6 +132,16 @@
 				28CFCC852A9E9B32002F8A30 /* ictis_sheduleUITestsLaunchTests.swift */,
 			);
 			path = "ictis sheduleUITests";
+			sourceTree = "<group>";
+		};
+		28CFCC942A9F78B3002F8A30 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				28CFCC922A9F786E002F8A30 /* ScheduleView.swift */,
+				28CFCC952A9F78CB002F8A30 /* SearchView.swift */,
+				28CFCC982A9F7B47002F8A30 /* SettingsView.swift */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CFCC992A9F7B47002F8A30 /* SettingsView.swift in Sources */,
+				28CFCC962A9F78CB002F8A30 /* SearchView.swift in Sources */,
 				28CFCC6B2A9E9B31002F8A30 /* ContentView.swift in Sources */,
 				28CFCC692A9E9B31002F8A30 /* ictis_sheduleApp.swift in Sources */,
+				28CFCC932A9F786E002F8A30 /* ScheduleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,9 +434,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ictis shedule/Preview Content\"";
+				DEVELOPMENT_TEAM = SRQ5M7H439;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -431,6 +453,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-shedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,9 +465,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ictis shedule/Preview Content\"";
+				DEVELOPMENT_TEAM = SRQ5M7H439;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -459,6 +484,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.anelfer.ictis-shedule";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
