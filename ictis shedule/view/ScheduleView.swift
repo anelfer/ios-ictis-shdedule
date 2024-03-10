@@ -8,13 +8,19 @@
 import SwiftUI
 
 struct ScheduleView: View {
+    var group = "55.html"
     private let colors: [Color] = [.red, .blue]
-    @State var dataInfo = Wrapper(table: Table(type: "testtype", name: "testname", week: 1, group: "testgroup", table: [["","","","","","","",""],
-                                    ["","","","","","","",""],
-                                    ["","","","","","","",""],
-                                    ["","","","","","","",""],
-                                                                                                                        ["","","","","","","",""],["","","","","","","",""],["","","","","","","",""],["","","","","","","",""]], link: "test"), weeks: [1, 2])
-    @State var selectedWeek = 1
+    @State var dataInfo = Wrapper(table: Table(type: "testtype", name: "testname", week: 5, group: "testgroup", table: [
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""],
+        ["","","","","","","",""]
+    ], link: "test"), weeks: [1, 2])
+    @State var selectedWeek = 6
     @State var isLoadingWeek = false
     
     var body: some View {
@@ -32,9 +38,9 @@ struct ScheduleView: View {
                             
                             ForEach(1...7,
                                     id: \.self) { pair in
-                                LabeledContent(pair.description) {
+                                LabeledContent(table.table[1][pair]) {
                                     Text(table.table[week][pair])
-                                }.padding(.horizontal, 55.0)
+                                }.frame(alignment: .leading).padding(.horizontal, 5.0)
                             }
                         }
                     }
@@ -58,11 +64,9 @@ struct ScheduleView: View {
                     Task {
                         do {
                             isLoadingWeek = true
-                            dataInfo = try await loadShedule(week: selectedWeek.description)
+                            dataInfo = try await loadShedule(group: group, week: selectedWeek.description)
                             isLoadingWeek = false
-                            print(dataInfo)
                         } catch let e {
-                            print("EROR BLYAT " + String(describing: e))
                             dataInfo.table.name = "ERROR WHILE LOADING"
                             isLoadingWeek = false
                         }
@@ -80,6 +84,17 @@ struct ScheduleView: View {
                           }
                 }
             }
+        }.onAppear {
+            Task {
+                do {
+                    isLoadingWeek = true
+                    dataInfo = try await loadShedule(group: group, week: selectedWeek.description)
+                    isLoadingWeek = false
+                } catch let e {
+                    dataInfo.table.name = "ERROR WHILE LOADING"
+                    isLoadingWeek = false
+                }
+            }
         }
     }
 }
@@ -90,9 +105,8 @@ struct ScheduleView_Previews: PreviewProvider {
     }
 }
 
-func loadShedule(week: String) async throws -> Wrapper {
-    print("attemptLoad!")
-    let url = URL(string: "https://ictis.ru/api?request=schedule&group=55.html&week=" + week)!
+func loadShedule(group: String, week: String) async throws -> Wrapper {
+    let url = URL(string: "https://ictis.ru/api?request=schedule&group=" + group + "&week=" + week)!
     let (data, _) = try await URLSession.shared.data(from: url)
     let wrapper = try JSONDecoder().decode(Wrapper.self, from: data)
     return wrapper

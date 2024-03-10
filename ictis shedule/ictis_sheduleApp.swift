@@ -11,7 +11,7 @@ import SwiftUI
 struct ictis_sheduleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(selectedTab: 0)
         }
     }
 }
